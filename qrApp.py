@@ -1,8 +1,8 @@
 import base64
-from flask import Flask, request, make_response, render_template
+from flask import Flask, request, render_template
 import qrcode
 import io
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 app = Flask(__name__)
 
